@@ -6,28 +6,39 @@ body{
   background: #000000;
   color: #FFFFFF;
   margin-top: 2em;
+  margin-bottom: 2em;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 /*Inician los estilos de la cabecera*/
 #cabecera{
-  background: #848484;
+  background: #5b7989;
   width: 80%;
+  border-radius: 1em 1em 0 0;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
+  header>article{
+    padding: 2em;
+  }
+  header>nav{
+    padding: 2em;
+  }
 /*Inician los estilos para el contenedor_central*/
 #contenedor_central{
-  background: #81F7BE;
+  background: #82c3a6;
   width: 80%;
   display: flex;
   justify-content: center;
 }
+  .ImagenPaseo{
+    filter: drop-shadow(3px 2px #000000);
+  }
 /*Inician los estilos para el contenedor_secundario*/
 #contenedor_secundario{
-  background: #FACC2E;
+  background: #d5c75f;
   width: 80%;
   display: flex;
   justify-content: space-around;
@@ -47,7 +58,25 @@ body{
   }
   .ImagenPaisaje{
     width: 70%;
+    filter: drop-shadow(3px 2px #B43104);
   }
   .ImagenMano{
     width: 70%;
+    filter: drop-shadow(3px 2px #424242);
+  }
+/*Inician los estilos del Footer*/
+#pie{
+  background: #C6d5c5;
+  color: #000000;
+  border-radius: 0 0 1em 1em;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+footer>article{
+  margin: 0.5em;
+  padding: 0.5em;
+}
+  footer article figure img{
+    width: 3%;
   }
