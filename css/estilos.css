@@ -5,6 +5,7 @@
 body{
   background: #000000;
   color: #FFFFFF;
+  margin-top: 2em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,8 +14,40 @@ body{
 #cabecera{
   background: #848484;
   width: 80%;
-  margin-bottom: 1em;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
+/*Inician los estilos para el contenedor_central*/
+#contenedor_central{
+  background: #81F7BE;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+/*Inician los estilos para el contenedor_secundario*/
+#contenedor_secundario{
+  background: #FACC2E;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+  #item2{
+    margin: 0.5em;
+    padding-top: 1em;
+    text-align: center;
+    order: 2;
+    flex: 1 1 auto;
+  }
+  #item3{
+    margin: 0.5em;
+    padding-top: 1em;
+    text-align: center;
+    flex: 1 1 auto;
+  }
+  .ImagenPaisaje{
+    width: 70%;
+  }
+  .ImagenMano{
+    width: 70%;
+  }
