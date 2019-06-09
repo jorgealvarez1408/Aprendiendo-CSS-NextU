@@ -64,6 +64,12 @@ body{
     width: 70%;
     filter: drop-shadow(3px 2px #424242);
   }
+  .ImagenMano:hover{
+      transform: rotate(20deg);
+  }
+  .ImagenPaisaje:hover{
+    transform: translate(5px,-20px);
+  }
 /*Inician los estilos del Footer*/
 #pie{
   background: #C6d5c5;
