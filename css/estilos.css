@@ -64,11 +64,33 @@ body{
     width: 70%;
     filter: drop-shadow(3px 2px #424242);
   }
-  .ImagenMano:hover{
+  /*.ImagenMano:hover{
       transform: rotate(20deg);
+  }*/
+  .ImagenMano:hover{
+    animation: MyAnimation 2s;
   }
-  .ImagenPaisaje:hover{
+  @keyframes MyAnimation{
+    from{
+      transform: rotate(20deg);
+    }
+    to{
+      transform: rotate(0deg);
+    }
+  }
+  /*.ImagenPaisaje:hover{
     transform: translate(5px,-20px);
+  }*/
+  .ImagenPaisaje:hover{
+    animation: MyAnimation1 2s;
+  }
+  @keyframes MyAnimation1{
+    from{
+        transform: translate(5px,-20px);
+    }
+    to{
+      transform: translate(0,0);
+    }
   }
 /*Inician los estilos del Footer*/
 #pie{
