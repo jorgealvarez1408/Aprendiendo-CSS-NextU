@@ -57,6 +57,18 @@ figcaption{
     margin: 0.5em;
     flex: 1 1 26%;
   }
+  #imagen1{
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+  }
+  .imagenes:nth-child(even){
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+  #imagen3{
+    -webkit-filter: sepia(90%);
+    filter: sepia(90%);
+  }
 /*Inician los estilos del Footer*/
 #pie{
   background: #C6d5c5;
