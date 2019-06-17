@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+*{
+  margin: 0;
+  font-family: 'Dancing Script', cursive, arial;
+  font-size: 20px;
+}
+/*Inician los estilos del body caja padre*/
+body{
+  background: #000000;
+  color: #FFFFFF;
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  font-size: 30px;
+}
+header nav{
+  word-spacing: 30px;
+}
+a{
+  text-decoration: none;
+}
+figcaption{
+  color: black;
+}
+/*Inician los estilos de la cabecera*/
+#cabecera{
+  background: #5b7989;
+  width: 80%;
+  border-radius: 1em 1em 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+  header>article{
+    padding: 2em;
+  }
+  header>nav{
+    padding: 2em;
+  }
+/*Inicia estilos de contenedor principal*/
