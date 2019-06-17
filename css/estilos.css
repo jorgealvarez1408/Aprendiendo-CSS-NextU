@@ -129,3 +129,15 @@ footer>article{
   #item7{
     flex: 6 1 auto;
   }
+@media all and (max-width: 640px){
+  #cabecera{
+    flex-direction: column;
+    text-align: center;
+  }
+  #contenedor_secundario{
+    flex-direction: column;
+  }
+  #pie{
+    flex-direction: column;
+  }
+}
