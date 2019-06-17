@@ -37,10 +37,14 @@ figcaption{
   justify-content: space-around;
 }
   header>article{
+    margin: 0.5em;
     padding: 2em;
+    flex: 1 1 60%;
   }
   header>nav{
+    margin: 0.5em;
     padding: 2em;
+    flex: 1 1 20%;
   }
 /*Inician los estilos para el contenedor_central*/
 #contenedor_central{

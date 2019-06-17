@@ -37,10 +37,14 @@ figcaption{
   justify-content: space-around;
 }
   header>article{
+    margin: 0.5em;
     padding: 2em;
+    flex: 1 1 60%;
   }
   header>nav{
+    margin: 0.5em;
     padding: 2em;
+    flex: 1 1 20%;
   }
 /*Inicia estilos de contenedor principal*/
 #principal{
@@ -97,3 +101,23 @@ figcaption{
     #item7{
       flex: 6 1 auto;
     }
+/*Inicio de las @media*/
+@media all and (max-width: 640px){
+  #cabecera{
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+  }
+    header>article{
+      padding: 1.9em;
+    }
+    header>nav{
+      padding: 0.2em;
+    }
+  #principal{
+    flex-direction: column;
+  }
+  #pie{
+    flex-direction: column;
+  }
+}
